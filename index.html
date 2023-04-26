@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitar produto</title>
+    <!--Referenciar css-->
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--Fonte-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Montserrat:thin,extra-light,light,100,200,300,400,500,600,700,800"
+        rel="stylesheet">
+    <!--Importante para pegar os ícones das redes sociais-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+
+            <!--Partezinha de cima, para ir para outras páginas-->
+            <div id="componentes-do-header">
+                <div class="outras-paginas hvr-underline-from-center">
+                    <a class="links" href="#">
+                        <p class="texto-header">PÁGINA INICIAL</p>
+                    </a>
+                </div>
+
+
+                <div class="outras-paginas hvr-underline-from-center">
+                    <a class="links" href="#">
+                        <p class="texto-header">PRODUTOS</p>
+                    </a>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <div id="fundo">
+
+            <section id="solicitar-produto">
+                <p id="título-solicitar-produto">
+                    Solicitar produto
+                </p>
+            </section>
+
+        </div>
+            <div class="solicitar-produto-texto">
+                <div class="texto-introdutorio">
+                    <p>Olá, informe abaixo o produto que você deseja obter de nossa loja.</p>
+                </div>
+
+            </div>
+
+            <div id="botão">
+                <button class="addclinicbutton" type="button" data-toggle="collapse" data-target="#formulario"
+                    aria-expanded="false" aria-controls="formulario">
+                    <p>Informar produto</p>
+                </button>
+            </div>
+
+            <div class="collapse" id="formulario">
+                <div class="container">
+                    <div class="card">
+                        <form>
+                            <div class="mb3">
+                                <label for="name" class="form-label">Nome do produto</label>
+                                <input type="name" class="form-control" id="name" placeholder="Mouse">
+                            </div>
+
+                            <div class="mb3">
+                                <label for="name" class="form-label">Marca</label>
+                                <input type="name" class="form-control" id="img"
+                                    placeholder="Razer">
+                            </div>
+                            <div class="mb3" id="submit-button">
+                                <button type="submit" class="form-control btn btn-secondary" placeholder="Submeter" id="submit">Solicitar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <div id="footer">
+        <!-- Créditos -->
+        <div class="footer-component creditos">
+            <div class="bloco-de-texto bloco-de-texto-título">
+                <strong></strong>
+            </div>
+            <div class="bloco-de-texto">
+                <strong>
+               Start Soft Tech
+                </strong>
+            </div>
+        </div>
+        <!-- Denuncie -->
+        <div class="footer-component denuncie">
+            <div class="bloco-de-texto bloco-de-texto-título">
+                <strong></strong>
+            </div>
+
+            <div class="bloco-de-texto">
+                <strong>
+                    <p>O serviço que te satisfaz</p>
+                </strong>
+            </div>
+        </div>
+        <!-- Redes sociais -->
+        <div class="footer-component icons">
+            <div class="bloco-de-texto bloco-de-texto-título">
+                <strong>redes sociais</strong>
+            </div>
+            <a href="#" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="#" target="_blank"><i
+                    class="fa-brands fa-twitter"></i></a>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
